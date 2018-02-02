@@ -15,7 +15,7 @@
     
     <br/> 
      
-     <form method="POST" action="Ebus2.php"
+     <form method="POST" action="Ebus2.php">
     
      <label for="salesforce">
       
@@ -39,13 +39,13 @@
      </br>
         
      <label for="total">
-        Sub Total
-        <input type="text" id="subtotal" value="0.00" readonly/>
+        Total
+        <input type="text" id="total" value="0.00" readonly/>
      </label>
      
      <br/>
      
-       <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+       <button type="submit" id="btnProceed" disable>Add to Shopping Cart</button>
         
      </form>
    
