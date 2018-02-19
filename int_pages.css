@@ -1,17 +1,22 @@
 #section1{
-    background-color: rgb(238, 0, 90);
+    background:url("https://s-ec.bstatic.com/images/hotel/max1024x768/880/88031906.jpg");
 }
 
 #section2{
-    background-color: rgb(44, 62, 80);
+    background:url("http://data.1freewallpapers.com/download/boston-skyline-city-night-1280x720.jpg");
+ 
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+    background:url("https://www.desktopbackground.org/download/1280x720/2010/11/29/118390_toronto-on-canada-widescreen-wallpapers-6341-hd-wallpapers_1920x1200_h.jpg");
+   
 }
 
 .section{
     text-align: center;
-    color: white;
+    color:white;
+    
 }
+
+
 
