@@ -1,10 +1,31 @@
+#mainheading{
+  text-align: center;
+  color:white;  
+  font-size:75px;
+  padding-top:200px;
+}
+
 .mainheading{
     text-align: center;
     color:white;
+    
 } 
 
 .caption{
     color:white;
+}
+
+.cloudbutton{
+    position:fixed;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:12px;
 }
 
 .button{
@@ -12,10 +33,15 @@
     border: none;
     color: white;
     padding: 15px 32px;
-    text-align: center;
+    text-align:center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius:12px;
+}
+
+.button:hover {
+    background-color:#333
 }
 
 #homepage{
@@ -23,29 +49,27 @@
         position:absolute;
 }
 
-
-
 #education{
-    float:left;
-    padding:100px 20px;
-}
-
-#table{
-    background-color: #1E90FF;
-    color:white;
     
-    padding: 25px 50px 75px 100px;
 }
 
+.education{
+    float:left;
+    
+    
+}
 
-
+.table{
+    float:right;
+    background-color:#1E90FF;
+    color:white;
+}
 
 body{
    
    background:url("https://static1.squarespace.com/static/52e77ab3e4b0a4877ee01abd/530f82fce4b0340ce527dfba/530f8309e4b0b9ddff1340cd/1393525515702/20120521-yosemite-327.jpg?format=1500w");
    background-size:cover;
    background-repeat:no-repeat;
-   
 }
 
 p{
@@ -58,8 +82,8 @@ ul{
     margin: 0px;
     padding: 0px;
     list-style: none;
+    width:100%;
 }
-
 
  ul li{
     float: left;

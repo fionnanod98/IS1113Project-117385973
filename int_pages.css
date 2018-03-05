@@ -1,79 +1,64 @@
 #section1{
-    background:url("https://avante.biz/wp-content/uploads/Hawaii-Pics-Wallpapers/Hawaii-Pics-Wallpapers-015.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
+    background:url("https://avante.biz/wp-content/uploads/Hawaii-Pics-Wallpapers/Hawaii-Pics-Wallpapers-015.jpg")no-repeat center center fixed; 
+  background-size: cover;
+   
 }
 
 #section2{
-    background:url("http://www.zastavki.com/pictures/1600x1200/2017World___USA_Night_City_Boston__USA_113459_2.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
+    background:url("http://www.zastavki.com/pictures/1600x1200/2017World___USA_Night_City_Boston__USA_113459_2.jpg")no-repeat center center fixed; 
+  background-size: cover;
+   
 }
 
 #section3{
-    background:url("http://st.gde-fon.com/wallpapers_original/564072_toronto_kanada_gorod_2048x1536_www.Gde-Fon.com.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
+    background:url("http://st.gde-fon.com/wallpapers_original/564072_toronto_kanada_gorod_2048x1536_www.Gde-Fon.com.jpg")no-repeat center center fixed; 
+  background-size: cover;
+
 }
 
 
 #section4{
-    background:url("http://www.lpcsathletics.org/wp-content/uploads/2017/08/soccer-2.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
+    background:url("http://www.lpcsathletics.org/wp-content/uploads/2017/08/soccer-2.jpg")no-repeat center center fixed; 
+  background-size: cover;
+   
     
 }
 
     
    
 #section5{
-    background:url("https://c.pxhere.com/photos/6b/eb/goal_field_football_night_soccer-1233405.jpg!d");
-    background-repeat:no-repeat;
-    background-size:cover;
+    background:url("https://c.pxhere.com/photos/6b/eb/goal_field_football_night_soccer-1233405.jpg!d")no-repeat center center fixed; 
+  background-size: cover;
+    
+   
     
 }
 #section6{
-    background:url("http://www.fai.ie/sites/default/files/styles/content_width_730px_x_350px/public/thumbnails/image/Ballincollig%20win%20FAI%20Youth%20Cup.jpg?itok=FWro1J7k");
-    background-repeat:no-repeat;
-    background-size:cover;
+    background:url("http://www.fai.ie/sites/default/files/styles/content_width_730px_x_350px/public/thumbnails/image/Ballincollig%20win%20FAI%20Youth%20Cup.jpg?itok=FWro1J7k")no-repeat center center fixed; 
+  background-size: cover;
+    
      
 }
 
 #section7{
-   background:url("http://desynit.com/wp-content/uploads/2013/11/salesforce_blog_image.jpg");
-   background-repeat:no-repeat;
-   background-size:cover;
-   min-height:100%;
-   width:100%;
-   left:0;
-   top:0;
+   background:url("http://desynit.com/wp-content/uploads/2013/11/salesforce_blog_image.jpg")no-repeat center center fixed; 
+   background-size: cover;
+   
 }
 #section8{
-   background:url("https://pbs.twimg.com/profile_images/452986416096493569/4eL5Znpf.jpeg");
-   background-repeat:no-repeat;
-   background-size:cover;
-   min-height:100%;
-   width:100%;
-   left:0;
-   top:0;
+   background:url("https://pbs.twimg.com/profile_images/452986416096493569/4eL5Znpf.jpeg")no-repeat center center fixed; 
+   background-size: cover;
+  
 }
 #section9{
-   background:url("https://a0.awsstatic.com/main/images/logos/aws_logo_smile_1200x630.png");
-   background-repeat:no-repeat;
-   background-size:cover;
-   min-height:100%;
-   width:100%;
-   left:0;
-   top:0;
+   background:url("https://a0.awsstatic.com/main/images/logos/aws_logo_smile_1200x630.png")no-repeat center center fixed; 
+   background-size: cover;
+  
 }
 #section10{
-    background:url("https://www.nerdsinaflash.com/wp-content/uploads/2017/02/gmail-logo.png");
-    background-repeat:no-repeat;
-    background-size:cover;
-    min-height:100%;
-    width:100%;
-    left:0;
-    top:0;
+    background:url("https://www.nerdsinaflash.com/wp-content/uploads/2017/02/gmail-logo.png")no-repeat center center fixed; 
+    background-size: cover;
+   
 }
 
 .section{
