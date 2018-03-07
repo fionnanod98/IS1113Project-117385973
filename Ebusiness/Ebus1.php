@@ -50,7 +50,7 @@ ul li:hover ul li {
 }
 
 .active {
-    background-color: #d966ff;
+    background-color: white;
 }
         
         #maincontent {
@@ -122,14 +122,19 @@ ul li:hover ul li {
         
         
         
-         <ul>
-            <li> <a href="homepage.html"> Home</a></li>
-      <li> <a href="CV/CV_Page1.html"> Curriculum Vitae </a> </li>
-      <li> <a href="Interests/Interests.html"> Interests </a> </li>
-      <li> <a href="../EBusiness1.html"> E-Business </a></li>
-      
-      </ul>
-        
+        <ul>
+        <li><a href="../homepage.html">Home</a></li>
+        <li><a>About Cloud</a>
+           <ul>
+               <li><a href="salesforce.html">Salesforce(Saas)</a></li>
+               <li><a href="cloud9.html">Cloud 9(Paas)</a></li>
+               <li><a href="amazon.html">Amazon(Iaas)</a></li>
+               <li><a href="gmail.html">Gmail(Caas)</a></li>
+          
+           </ul>
+        </li>
+        <li><a href="Ebusiness/Ebus1.php">Products</a></li>
+        <li><a href="cloudcontact.html">Contact Us</a></li> </ul>
         
         
         

@@ -14,28 +14,51 @@ $email =$_REQUEST['email'];
             position: absolute;
         }
               ul{
-            list-style-type:none;
-            margin:0;
-            padding:0;
-            width:100%;
-            overflow:hidden;
-            background-color:#42d7f4 ;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    width:100%;
+    overflow:hidden;
 }
-li{
+
+ ul li{
     float: left;
+    width:222px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    text-transform:uppercase;
+    font-family: arial;
+    list-style: none;
+    
 }
-li a{
-    display: block;
-    color:black;
-    text-align:center;
-    padding: 16px 18px;
-    text-decoration: none;
+
+ul li a {
+ text-decoration: none;
+ color: white;
+ display: block;
+ text-align:center;
 }
-li a:hover {
-    background-color:#d966ff ;
+
+ul li a:hover {
+ background-color: white;
+ color:black;
+ 
 }
+
+ul li ul li{
+ display: none;
+}
+
+ul li:hover ul li {
+ display: block;
+ 
+}
+
 .active {
-    background-color: #d966ff ;
+    background-color: white ;
 }
                  #mainContent {
                                 top:8em;
