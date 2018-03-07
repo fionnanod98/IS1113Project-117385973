@@ -148,7 +148,7 @@ ul li:hover ul li {
         <h2>Select A Product</h2>
         <div id ="maincontent">
             <br>
-        <form method ="POST" action ="ebus2.php">
+        <form method ="POST" action ="Ebus2.php">
             <label for = "salesforce">
             &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="salesforce" name="product"  onClick="disablebtnProceed()"/>
             Salesforce @ $100
@@ -206,7 +206,7 @@ ul li:hover ul li {
         
         <br/>
         <div id ="button3">
-        <a href="ebus1.php"><button>Clear Choice</a></button>
+        <a href="Ebus1.php"><button>Clear Choice</a></button>
         </div>
         </div>
     </body>

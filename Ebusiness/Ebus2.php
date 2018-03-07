@@ -121,7 +121,7 @@ input[type=password] {
     </head>
     <body>
       <ul>
-        <li><a href = "ebus1.php">Home</a></li>
+        <li><a href = "Ebus1.php">Home</a></li>
         <li><a href ="Interests/CloudServiceservices.html">Cloud Services</a></li>
         <li><a class = "active" href = "#PAYMENT">Payment Details</a></li>
         </ul>
@@ -130,7 +130,7 @@ input[type=password] {
     </div>
         <h2>Please enter your payment details</h2>
         <div id ="content">
-            <form name = "myForm"  method="POST" action="ebus3.php">
+            <form name = "myForm"  method="POST" action="Ebus3.php">
                     <br>
                     <label for = "name">
                         <strong> &nbsp; Name:</strong>

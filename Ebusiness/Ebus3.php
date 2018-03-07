@@ -7,13 +7,13 @@ $email =$_REQUEST['email'];
     <head>
         <title>RECEIPT</title>
          <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css">
-             <style type = "text/css">
-              #Logo3 {
-            top:4em;
-            left:2em;
-            position: absolute;
-        }
-              ul{
+ <style type = "text/css">
+  #Logo3 {
+  top:4em;
+  left:2em;
+  position: absolute;
+  }
+  ul{
     margin: 0px;
     padding: 0px;
     list-style-type: none;
@@ -60,20 +60,20 @@ ul li:hover ul li {
 .active {
     background-color: white ;
 }
-                 #mainContent {
-                                top:8em;
-                                left:25em;
-                                width:30em;
-                                height:30em;
-                                position:absolute;
-                                border-style:groove;
+  #mainContent {
+   top:8em;
+   left:25em;
+   width:30em;
+   height:30em;
+   position:absolute;
+   border-style:groove;
                  }
-             </style>
+  </style>
          </head></PHP>
     </head>
     <body>
        <ul>
-        <li><a href = "ebus1.php">Home</a></li>
+        <li><a href = "Ebus1.php">Home</a></li>
         <li><a href ="Interests/CloudServices.html">Cloud Services</a></li>
         <li><a class = "active" href = "#RECEIPT">Purchase Receipt</a></li>
         </ul>
