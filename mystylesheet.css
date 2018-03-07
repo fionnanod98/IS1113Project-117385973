@@ -20,24 +20,31 @@
     background-color: green;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 35px;
     text-align:center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius:12px;
+    top:500px;
+}
+
+.cloudbutton:hover{
+    background-color:#333;
 }
 
 .button{
+    position:fixed;
     background-color: #1E90FF;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding:15px 35px;
     text-align:center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius:12px;
+    
 }
 
 .button:hover {
@@ -49,13 +56,11 @@
         position:absolute;
 }
 
-#education{
-    
-}
+
 
 .education{
     float:left;
-    
+    margin:100px;
     
 }
 
@@ -63,6 +68,12 @@
     float:right;
     background-color:#1E90FF;
     color:white;
+    top:50px;
+    right:50px;
+}
+
+h1{
+    color:black;
 }
 
 body{
@@ -107,7 +118,7 @@ ul li a {
 }
 
 ul li a:hover {
- background-color: #333;
+ background-color: black;
  
 }
 

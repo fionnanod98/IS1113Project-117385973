@@ -1,26 +1,33 @@
 .mainheading{
     text-align:center;
-    color:white;
-    font:25px;
+    color:black;
+    font:70px;
 }
 
 body{
-    background:url("http://amadeusblog.com/wp-content/uploads/2015/06/Cloud-Computing-300x220.jpg")no-repeat center center fixed; 
+    background:url("http://www.lgcnsblog.com/wp-content/uploads/2015/09/main.jpg")no-repeat center center fixed; 
     background-size: cover;
     
 }
+
+p{
+    color:white;
+    font-size:20px;
+    font-family:helvetica;
+ }
+ 
 ul{
     margin: 0px;
     padding: 0px;
-    list-style: none;
+    list-style-type: none;
     width:100%;
+    overflow:hidden;
 }
 
  ul li{
     float: left;
     width:222px;
     height: 40px;
-    
     line-height: 40px;
     text-align: center;
     font-size: 20px;
@@ -35,6 +42,7 @@ ul li a {
  text-decoration: none;
  color: white;
  display: block;
+ text-align:center;
 }
 
 ul li a:hover {

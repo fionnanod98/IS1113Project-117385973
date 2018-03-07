@@ -2,43 +2,69 @@
 <html>
     <head>
         <title>Personal</title>
-           <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
+           <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
            
             <!--Adding Bootstrap-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        
+         <style>.nextbutton{
+        	 position:fixed;
+             background-color: #1E90FF;
+             border: none;
+             color: white;
+             padding:15px 35px;
+             text-align:center;
+             text-decoration: none;
+             display: inline-block;
+             font-size: 16px;
+             border-radius:12px;
+             left:130px;
+        }   
+          
+             .nextbutton:hover{
+             background-color:#333;
+        }
+        </style>
     </head>
 
     <body>
        
        <ul>
-       <li><a href="CV/cv_page1.html">Curriculum Vitae</a>
+       <li><a>Curriculum Vitae</a>
            <ul>
-               <li><a href="CV/cv_page1.html">Personal Details</a></li>
-               <li><a href="CV/cv_page2.html">Education</a></li>
-               <li><a href="CV/cvpage3.html">Work Experience</a></li>
+               <li><a href="cv_page1.html">Personal Details</a></li>
+               <li><a href="cv_page2.html">Education</a></li>
+               <li><a href="cv_page3.html">Work Experience</a></li>
            </ul>
        </li>
-       <li><a href="Interests/sports.html">Sports</a></li>
-       <li><a href="Interests/travel.html">Travel</a></li>
-       <li><a href="Interests/cloud.html">Cloud</a></li> 
+       <li><a>Interests</a>
+           <ul> 
+               <li><a href="Interests/sports.html">Sports</a></li>
+               <li><a href="Interests/travel.html">Travel</a></li>
+               <li><a href="Interests/cloud.html">Cloud Services</a></li>
+           </ul>
+       </li>
+       <li><a href="Interests/cloudhome.html">Proud Cloud Ltd</a></li>
        <li><a href="Ebusiness/Ebus1.php">E-business</a></li>
        <li><a href="https://github.com/fionnanod98/IS1113Project-117385973">GitHub</a></li>
    </ul>
-        
+        <br/>
+        <br/>
          <h1 class="mainheading">Personal Details</h1>
     
-        
+        <div>
         <p><strong>Name:</strong> Fionnan O'Donovan</p>
         <p><strong>Address:</strong> 32 Stan Hill, Kerry Pike, Cork </p>
         <p><strong>Phone:</strong> 021-4074790</p>
         <p><strong>Email:</strong> 117385973@umail.ucc.ie</p>
-        
+        </div>
        
+       <br/>
         
-        <a href="cv_page2.html" class="button">Next</a>
+        <a href="cv_page2.html" class="nextbutton">Next</a>
         <a href="../homepage.html" class="button">Home</a>
     </body>      
 </html>
