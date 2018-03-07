@@ -10,7 +10,6 @@ session_start();
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
          <script type="text/javascript" src="ebus2_validator.js"></script>
-         <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css">
          <style type = "text/css">
              #content {
                   top:8em;
@@ -20,57 +19,25 @@ session_start();
                   position:absolute;
                   border-style:ridge;
              }
-             #Logo2 {
-            top:4em;
-            left:2em;
-            position: absolute;
-        }
-           ul{
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
-    width:100%;
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
     overflow:hidden;
+    background-color: 	#1E90FF;
 }
-
- ul li{
+li{
     float: left;
-    width:222px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    font-size: 20px;
-    background-color: black;
-    text-transform:uppercase;
-    font-family: arial;
-    list-style: none;
-    
 }
-
-ul li a {
- text-decoration: none;
- color: white;
- display: block;
- text-align:center;
+li a{
+    display: block;
+    color:white;
+    text-align:center;
+    padding: 10px 59px;
+    text-decoration: none;
 }
-
-ul li a:hover {
- background-color: white;
- color:black;
- 
-}
-
-ul li ul li{
- display: none;
-}
-
-ul li:hover ul li {
- display: block;
- 
-}
-
-.active {
-    background-color: white;
+li a:hover {
+    background-color: #111;
 }
 input[type=text] {
                            border: 2px solid blue;
@@ -121,14 +88,12 @@ input[type=password] {
     </head>
     <body>
       <ul>
-        <li><a href = "Ebus1.php">Home</a></li>
-        <li><a href ="Interests/CloudServiceservices.html">Cloud Services</a></li>
+        <li><a href = "../homepage.html">Home</a></li>
+        <li><a href = "../EBusiness/EBusiness1.html">E-Business</a></li>
+        <li><a href ="../Interests/CloudService.html">Cloud Services</a></li>
         <li><a class = "active" href = "#PAYMENT">Payment Details</a></li>
         </ul>
-          <div id ="Logo2">
-        <img src="https://logos.textgiraffe.com/logos/logo-name/Cloud-designstyle-cloud-m.png">
-    </div>
-        <h2>Please enter your payment details</h2>
+        <h2>Please enter your details</h2>
         <div id ="content">
             <form name = "myForm"  method="POST" action="Ebus3.php">
                     <br>

@@ -5,52 +5,29 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type = "text/javascript" src ="cost_calc.js"></script>
         <style type = "text/css">
-     ul{
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
-    width:100%;
-    overflow:hidden;
+        ul{
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            width:100%;
+            overflow:hidden;
+            background-color:#42d7f4 ;
 }
-
- ul li{
+li{
     float: left;
-    width:222px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    font-size: 20px;
-    background-color: black;
-    text-transform:uppercase;
-    font-family: arial;
-    list-style: none;
-    
 }
-
-ul li a {
- text-decoration: none;
- color: white;
- display: block;
- text-align:center;
+li a{
+    display: block;
+    color:black;
+    text-align:center;
+    padding: 16px 18px;
+    text-decoration: none;
 }
-
-ul li a:hover {
- background-color: white;
- color:black;
- 
+li a:hover {
+    background-color:#d966ff ;
 }
-
-ul li ul li{
- display: none;
-}
-
-ul li:hover ul li {
- display: block;
- 
-}
-
 .active {
-    background-color: white;
+    background-color: #d966ff;
 }
         
         #maincontent {
@@ -76,11 +53,7 @@ ul li:hover ul li {
             left:9em;
             position: absolute;
         }
-        #Logo1 {
-            top:4em;
-            left:2em;
-            position: absolute;
-        }
+   
         h2 {
             text-align:center;
         }
@@ -103,10 +76,10 @@ ul li:hover ul li {
                           color: White;
        }
        button {
-            background-color: #42d7f4;
+            background-color: #1E90FF;
                            border-radius: 2px;
                            border:none;
-                           color: black;
+                           color: white;
                            padding: 5px;
                            cursor: pointer;
        }
@@ -122,19 +95,14 @@ ul li:hover ul li {
         
         
         
-        <ul>
-        <li><a href="../homepage.html">Home</a></li>
-        <li><a>About Cloud</a>
-           <ul>
-               <li><a href="salesforce.html">Salesforce(Saas)</a></li>
-               <li><a href="cloud9.html">Cloud 9(Paas)</a></li>
-               <li><a href="amazon.html">Amazon(Iaas)</a></li>
-               <li><a href="gmail.html">Gmail(Caas)</a></li>
-          
-           </ul>
-        </li>
-        <li><a href="Ebusiness/Ebus1.php">Products</a></li>
-        <li><a href="cloudcontact.html">Contact Us</a></li> </ul>
+    <ul>
+      <li> <a href="homepage.html"> Home</a></li>
+      <li> <a href="CV/CV_Page1.html"> Curriculum Vitae </a> </li>
+      <li> <a href="Interests/Interests.html"> Interests </a> </li>
+      <li> <a href="../EBusiness1.html"> E-Business </a></li>
+      
+    </ul>
+        
         
         
         
