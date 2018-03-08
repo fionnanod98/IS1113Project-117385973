@@ -50,7 +50,7 @@ ul{
     line-height: 40px;
     text-align: center;
     font-size: 20px;
-    background-color: 	#1E90FF;
+    background-color:black;
     text-transform:uppercase;
     font-family: arial;
     list-style: none;
@@ -64,7 +64,8 @@ ul li a {
 }
 
 ul li a:hover {
- background-color: black;
+ background-color: white;
+ color:black;
  
 }
 
@@ -130,9 +131,7 @@ input[type=password] {
     <body>
       <ul>
         <li><a href = "../homepage.html">Home</a></li>
-        <li><a href = "../EBusiness/EBusiness1.html">E-Business</a></li>
-        <li><a href ="../Interests/CloudService.html">Cloud Services</a></li>
-        <li><a class = "active" href = "#PAYMENT">Payment Details</a></li>
+        
         </ul>
         <h2>Please enter your details</h2>
         <div id ="content">

@@ -22,7 +22,7 @@
     line-height: 40px;
     text-align: center;
     font-size: 20px;
-    background-color: 	#1E90FF;
+    background-color:black;
     text-transform:uppercase;
     font-family: arial;
     list-style: none;
@@ -36,7 +36,8 @@ ul li a {
 }
 
 ul li a:hover {
- background-color: black;
+ background-color: white;
+ color:black;
  
 }
 
