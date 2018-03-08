@@ -2,41 +2,63 @@
 <html>
     <head>
         <title>Select Product</title>
+       
+        <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type = "text/javascript" src ="cost_calc.js"></script>
         <style type = "text/css">
-        ul{
-            list-style-type:none;
-            margin:0;
-            padding:0;
-            width:100%;
-            overflow:hidden;
-            background-color:#42d7f4 ;
+       ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width:100%;
 }
-li{
+
+ ul li{
     float: left;
+    width:222px;
+    height: 40px;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: 	#1E90FF;
+    text-transform:uppercase;
+    font-family: arial;
+    list-style: none;
+    
 }
-li a{
-    display: block;
-    color:black;
-    text-align:center;
-    padding: 16px 18px;
-    text-decoration: none;
+
+ul li a {
+ text-decoration: none;
+ color: white;
+ display: block;
 }
-li a:hover {
-    background-color:#d966ff ;
+
+ul li a:hover {
+ background-color: black;
+ 
+}
+
+ul li ul li{
+ display: none;
+}
+
+ul li:hover ul li {
+ display: block;
+ 
 }
 .active {
-    background-color: #d966ff;
+    background-color: white;
 }
         
         #maincontent {
-                        top:7em;
-                        left:25em;
-                        width:30em;
-                        height:30em;
-                        position:absolute;
-                        border-style:groove;
+                top:7em;
+                left:25em;
+                width:30em;
+                height:30em;
+                position:absolute;
+                border-style:groove;
         }
         #button1 {
             top:22.5em;
@@ -57,13 +79,18 @@ li a:hover {
         h2 {
             text-align:center;
         }
+        body{
+            background:url("http://www.lgcnsblog.com/wp-content/uploads/2015/09/main.jpg")no-repeat center center fixed; 
+            background-size: cover;
+        }
+
         input[type=text] {
                            border: 2px solid black;
                            border-radius: 4px;
                            text-align:center;
 }
        button[type=submit]:disabled {
-                           background-color: grey;
+                           background-color: black;
                            border-radius: 2px;
                            border:none;
                            color: black;
@@ -72,11 +99,11 @@ li a:hover {
                            
        }
        button[type=submit]:enabled {
-                          background-color:#80ffd4;
+                          background-color:#333;
                           color: White;
        }
        button {
-            background-color: #1E90FF;
+            background-color: black;
                            border-radius: 2px;
                            border:none;
                            color: white;
@@ -84,7 +111,7 @@ li a:hover {
                            cursor: pointer;
        }
        button:hover {
-           background-color:#d966ff;
+           background-color:#333;
            color:White;
        }
        
@@ -96,23 +123,11 @@ li a:hover {
         
         
     <ul>
-      <li> <a href="homepage.html"> Home</a></li>
-      <li> <a href="CV/CV_Page1.html"> Curriculum Vitae </a> </li>
-      <li> <a href="Interests/Interests.html"> Interests </a> </li>
-      <li> <a href="../EBusiness1.html"> E-Business </a></li>
-      
-    </ul>
+        <li><a href="../homepage.html">Home</a></li>
+    </ul>   
+        <br/>
+        <br/>
         
-        
-        
-        
-        
-        
-        
-        
-        <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css"></head></PHP>
-      
-
         <h2>Select A Product</h2>
         <div id ="maincontent">
             <br>
@@ -165,7 +180,7 @@ li a:hover {
             <div id ="button1">
             <button type = "submit" id="btnProceed" disable>Add to Shopping Cart</button>
             </div>
-            </form> 
+        </form> 
             <div id ="button2">
           <button onClick="calcSub();calcDisVatTotal()">Calculate Cost</button>
           </div>

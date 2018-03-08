@@ -6,38 +6,64 @@ $email =$_REQUEST['email'];
 <html>
     <head>
         <title>RECEIPT</title>
-         <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css">
-             <style type = "text/css">
-            ul{
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    overflow:hidden;
-    background-color: 	#1E90FF;
+        
+    <style type = "text/css">
+ ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width:100%;
 }
-li{
+
+ ul li{
     float: left;
+    width:222px;
+    height: 40px;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: 	#1E90FF;
+    text-transform:uppercase;
+    font-family: arial;
+    list-style: none;
+    
 }
-li a{
-    display: block;
-    color:white;
-    text-align:center;
-    padding: 10px 59px;
-    text-decoration: none;
+
+ul li a {
+ text-decoration: none;
+ color: white;
+ display: block;
 }
-li a:hover {
-    background-color: #111;
+
+ul li a:hover {
+ background-color: black;
+ 
 }
-                 #mainContent {
-                                top:8em;
-                                left:25em;
-                                width:30em;
-                                height:30em;
-                                position:absolute;
-                                border-style:groove;
-                 }
-             </style>
-         </head></PHP>
+
+ul li ul li{
+ display: none;
+}
+
+ul li:hover ul li {
+ display: block;
+ 
+}
+body{
+            background:url("http://www.lgcnsblog.com/wp-content/uploads/2015/09/main.jpg")no-repeat center center fixed; 
+            background-size: cover;
+        }
+#mainContent {
+ top:8em;
+ left:25em; width:30em;
+ height:30em;
+ position:absolute;
+ border-style:groove;
+
+                                
+ }
+</style>
+</head>
     </head>
     <body>
        <ul>

@@ -9,7 +9,23 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-         <script type="text/javascript" src="ebus2_validator.js"></script>
+        
+        <ul>
+        <li><a href="../homepage.html">Home</a></li>
+        <li><a>About Cloud</a>
+           <ul>
+               <li><a href="salesforce.html">Salesforce(Saas)</a></li>
+               <li><a href="cloud9.html">Cloud 9(Paas)</a></li>
+               <li><a href="amazon.html">Amazon(Iaas)</a></li>
+               <li><a href="gmail.html">Gmail(Caas)</a></li>
+          
+           </ul>
+        </li>
+        <li><a href="Ebusiness/Ebus1.php">Products</a></li>
+        <li><a href="cloudcontact.html">Contact Us</a></li>
+        </ul>
+         
+       
          <style type = "text/css">
              #content {
                   top:8em;
@@ -20,25 +36,50 @@ session_start();
                   border-style:ridge;
              }
 ul{
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    overflow:hidden;
-    background-color: 	#1E90FF;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width:100%;
 }
-li{
+
+ ul li{
     float: left;
+    width:222px;
+    height: 40px;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: 	#1E90FF;
+    text-transform:uppercase;
+    font-family: arial;
+    list-style: none;
+    
 }
-li a{
-    display: block;
-    color:white;
-    text-align:center;
-    padding: 10px 59px;
-    text-decoration: none;
+
+ul li a {
+ text-decoration: none;
+ color: white;
+ display: block;
 }
-li a:hover {
-    background-color: #111;
+
+ul li a:hover {
+ background-color: black;
+ 
 }
+
+ul li ul li{
+ display: none;
+}
+
+ul li:hover ul li {
+ display: block;
+ 
+}
+body{
+            background:url("http://www.lgcnsblog.com/wp-content/uploads/2015/09/main.jpg")no-repeat center center fixed; 
+            background-size: cover;
+        }
 input[type=text] {
                            border: 2px solid blue;
                            border-radius: 4px;
@@ -123,7 +164,7 @@ input[type=password] {
         </div>
         
        
-        
+        <script type="text/javascript" src="Ebus2_validator.js"></script>
         <?php
         //Set session variables
         $_SESSION["total"] = $_POST["total"];
