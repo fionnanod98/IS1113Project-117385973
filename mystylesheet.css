@@ -2,7 +2,7 @@
   text-align: center;
   color:white;  
   font-size:75px;
-  padding-top:200px;
+  padding-top:150px;
 }
 
 .mainheading{
@@ -98,7 +98,7 @@ ul{
 
  ul li{
     float: left;
-    width:222px;
+    width:20%;
     height: 40px;
     opacity: .8;
     line-height: 40px;

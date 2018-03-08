@@ -3,7 +3,39 @@
     color:black;
     font:75px;
 }
+.nextbutton{
+        	 position:fixed;
+             background-color: #1E90FF;
+             border: none;
+             color: white;
+             padding:15px 35px;
+             text-align:center;
+             text-decoration: none;
+             display: inline-block;
+             font-size: 16px;
+             border-radius:12px;
+             left:170px;
+        }
+        .nextbutton:hover{
+            background-color:#333;
+        }
+.button{
+    position:fixed;
+    background-color: #1E90FF;
+    border: none;
+    color: white;
+    padding:15px 35px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:12px;
+    
+}
 
+.button:hover {
+    background-color:#333
+}
 body{
     background:url("http://www.lgcnsblog.com/wp-content/uploads/2015/09/main.jpg")no-repeat center center fixed; 
     background-size: cover;
@@ -26,7 +58,7 @@ ul{
 
  ul li{
     float: left;
-    width:222px;
+    width:33.3%;
     height: 40px;
     line-height: 40px;
     text-align: center;
