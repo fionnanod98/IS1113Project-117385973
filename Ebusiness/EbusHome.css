@@ -1,3 +1,4 @@
+ /*SelectProduct button design*/
  #SelectProduct {
             left:37em;
             top:25em;
@@ -12,18 +13,20 @@
             font-size: 16px;
             border-radius:12px;
         }
-
+         /*hover button*/
         #SelectProduct:hover {
             background-color:#333
 }
-        
+       /*background*/ 
      body{
             background:url("http://www.lgcnsblog.com/wp-content/uploads/2015/09/main.jpg")no-repeat center center fixed; 
             background-size: cover;
         }
+       /*centering header*/
         h1{
             text-align:center;
         }
+       
        ul{
     margin: 0px;
     padding: 0px;
@@ -59,11 +62,3 @@ ul li a:hover {
  
 }
 
-ul li ul li{
- display: none;
-}
-
-ul li:hover ul li {
- display: block;
- 
-}

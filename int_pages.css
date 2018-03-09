@@ -1,3 +1,5 @@
+/*pagepiling backgrounds for interests*/
+
 #section1{
     background:url("https://avante.biz/wp-content/uploads/Hawaii-Pics-Wallpapers/Hawaii-Pics-Wallpapers-015.jpg")no-repeat center center fixed; 
   background-size: cover;
@@ -35,18 +37,16 @@
 }
 #section6{
     background:url("http://www.fai.ie/sites/default/files/styles/content_width_730px_x_350px/public/thumbnails/image/Ballincollig%20win%20FAI%20Youth%20Cup.jpg?itok=FWro1J7k")no-repeat center center fixed; 
-  background-size: cover;
-    
-     
+    background-size: cover;
 }
 
 #section7{
-   background:url("https://seeklogo.com/images/C/cloud9-logo-57B51588FA-seeklogo.com.png")no-repeat center center fixed; 
+   background:url("https://ak0.picdn.net/shutterstock/videos/5277110/thumb/1.jpg")no-repeat center center fixed; 
    background-size: cover;
    
 }
 #section8{
-   background:url("http://www.periodicomonitor.com/wp-content/uploads/2016/07/Informed-On-New-Technology.jpg")no-repeat center center fixed; 
+   background:url("http://www.open2insight.com/wp-content/uploads/2017/09/cloud-computing.jpg")no-repeat center center fixed; 
    background-size: cover;
   
 }

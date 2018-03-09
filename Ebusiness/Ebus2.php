@@ -137,12 +137,14 @@ input[type=password] {
         <div id ="content">
             <form name = "myForm"  method="POST" action="Ebus3.php">
                     <br>
+                     <!--textboxes to enter customer details-->
                     <label for = "name">
                         <strong> &nbsp; Name:</strong>
                         <br>
                         &nbsp;<input type ='text' id ="name" name = "name"/>
                     </label>
                     <br><br>
+                   
                     <label for "email">
                         <strong>&nbsp; Email:</strong>
                         <br>

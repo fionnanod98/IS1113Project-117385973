@@ -8,6 +8,7 @@ $email =$_REQUEST['email'];
         <title>RECEIPT</title>
         
     <style type = "text/css">
+ /*navigation bar*/
  ul{
     margin: 0px;
     padding: 0px;
@@ -51,8 +52,8 @@ ul li:hover ul li {
  
 }
 body{
-            background:url("http://www.lgcnsblog.com/wp-content/uploads/2015/09/main.jpg")no-repeat center center fixed; 
-            background-size: cover;
+     background:url("http://www.lgcnsblog.com/wp-content/uploads/2015/09/main.jpg")no-repeat center center fixed; 
+     background-size: cover;
         }
 #mainContent {
  top:8em;
@@ -60,9 +61,8 @@ body{
  height:30em;
  position:absolute;
  border-style:groove;
-
-                                
- }
+ 
+}
 </style>
 </head>
     </head>
@@ -73,7 +73,7 @@ body{
         <h2>Purchase Receipt</h2>
         <div id = "mainContent">
         <?php
-        //Echo session varaibles that were set to the previous page
+        /*Echo session varaibles that were set to the previous page*/
         echo("<strong>Name: </strong>". $name);
         echo("<br><br><strong>Email: </strong>". $email);
         echo "<br><br><strong>Total Price is $</strong>" .$_SESSION["total"] . "."; 
